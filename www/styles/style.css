@@ -1,0 +1,65 @@
+.header-logo{background-size:28px 28px; width:50px;}
+.footer .footer-logo{background-size:80px 80px;	height:80px!important; margin-bottom:20px!important;}
+
+.theme-light .header .header-logo{background-image:url(../images/preload-logo.png);}
+.theme-light .menu .nav-logo{background-image:url(../images/preload-logo.png);}
+.theme-light .footer .footer-logo{background-image:url(../images/preload-logo.png);}
+
+.theme-dark .header .header-logo{background-image:url(../images/preload-logo.png);}
+.theme-dark .menu .nav-logo{background-image:url(../images/preload-logo.png);}
+.theme-dark .footer .footer-logo{background-image:url(../images/preload-logo.png);}
+
+.page-title-large a{background-image:url(../images/avatars/5s.png);}
+.page-title-small a{background-image:url(../images/avatars/5s.png);}
+.menu-header a{background-image:url(../images/avatars/5s.png);}
+
+.image-menu img {float:left;float:left;margin: 0 15px 0 0;}
+
+.quotes {
+	text-align: left;
+	letter-spacing: 0.1em;
+    padding: 6% 4%;
+	font-size: 1.2em;
+    }
+.quotes:first-letter{ 
+	font-size: 3em;
+	color: #5f98c5;
+	}
+.quotes:first-line { 
+	line-height: 23px; 
+	}    
+
+@media(min-width:325px){
+	.quotes {
+		line-height: 130%!important; 
+		font-size: 1.3em;}
+}
+@media(min-width:500px){
+	.quotes {
+		line-height: 150%!important;
+		font-size: 1.6em;}
+}
+@media(min-width:700){
+	.quotes {
+		line-height: 160%important;
+		font-size: 1.8em;}
+}
+/* Email-Adressen-Schutz durch Ausblenden von Teilen */
+.raus0 {
+	display: none;
+	}
+/* Absatznummern bei Ährenlese */
+.absatz {
+	color: #888;
+	font-size: 75%;
+	}
+.fussnote {
+font-size: 75%;
+font-style: normal !important;
+	}
+sup {
+vertical-align: super;
+font-size: 40%;
+font-style: normal !important;
+	}
+	

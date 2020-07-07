@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html lang="de">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+<title>NischenLicht</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Noto+Sans+JP:300,400,500,700,900&display=swap">
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+<link rel="stylesheet" type="text/css" href="styles/framework.css">
+<link rel="stylesheet" type="text/css" href="fonts/css/fontawesome-all.min.css">    
+<link rel="apple-touch-icon" sizes="180x180" href="app/icons/icon-192x192.png">
+</head>
+    
+<body class="theme-light bg-19" data-background="blue" data-highlight="blue2" >
+            
+<div id="page">
+    
+    <div id="page-preloader">
+        <div class="loader-main"><div class="preload-spinner border-highlight"></div></div>
+    </div>
+            
+    <div class="header header-dark opacity-60 header-fixed header-logo-app">
+        <a href="index.html" class="header-icon header-icon-1"><i class="fas fa-arrow-left"></i></a>	
+        <a href="index.html" class="header-title">Gebete u. Med.</a>
+        <a href="#" data-menu="menu-main" class="header-icon header-icon-2"><i class="fas fa-bars"></i></a>
+        <a href="#" data-toggle-theme class="header-icon header-icon-3"><i class="fas fa-palette"></i></a>
+    </div>
+    
+    <!-- Main Menu-->
+    <div id="menu-main"
+         class="menu menu-box-right"
+         data-menu-active="nav-pages"
+         data-menu-width="260" data-menu-effect="menu-parallax" data-menu-load="menu-main.html">
+    </div>    
+    
+    <!-- Share Menu
+    <div id="menu-share" 
+         class="menu menu-box-bottom" 
+         data-menu-height="400" data-menu-effect="menu-parallax" data-menu-load="menu-share.html">
+    </div>        -->
+
+   <div class="header-clear-large">   
+        <div class="content">
+
+				<!-- Content -->
+				
+			<div class="decoration decoration-margins"></div>
+				<div id="smallbox" class="round-small bg-18 opacity-95 shadow-huge bottom-20">
+					<div class="text-size-changer">
+						<h6 class="quotes" style="font-weight: 400;"></h6>
+					</div>
+				</div>
+			
+			</br>
+
+            <div class="one-half">
+                <h4 class="thin right-text opacity-85" onclick="window.location.reload(true);" style="cursor: pointer; cursor: hand;" class="center-text">Weiter</h4>
+            </div>
+            <div class="one-half">
+                <h1 id="increaseFont" style="cursor: pointer; cursor: hand;" class="float-right thin left-5">&uarr;</h1>
+                <h1 id="decreaseFont" style="cursor: pointer; cursor: hand;" class="float-right thin">&#8595; &#160; &#160;</h1>
+            </div>
+            <div class="clear"></div>
+        </br></br>
+		</div>
+
+    
+
+
+    <div class="menu-hider"></div>
+</div>
+
+
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/plugins.js"></script>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript">
+    var deviceReady = function(){
+        if(window.MobileAccessibility){
+            window.MobileAccessibility.usePreferredTextZoom(false);
+        }
+    }
+    document.addEventListener('deviceready', deviceReady, false);
+</script>
+<script type="text/javascript" src="scripts/custom.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+     $.get('gebmed.txt', function(data) {
+         var quotes = data.split("\@");
+         var idx = Math.floor(quotes.length * Math.random());
+         $('.quotes').html(quotes[idx]);
+     });
+ });
+</script>
+</body>
+
+    
+    
