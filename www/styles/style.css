@@ -25,9 +25,9 @@
 	font-size: 3em;
 	color: #5f98c5;
 	}
-.quotes:first-line { 
+/* .quotes:first-line { 
 	line-height: 23px; 
-	}    
+	}   */  
 
 @media(min-width:325px){
 	.quotes {
