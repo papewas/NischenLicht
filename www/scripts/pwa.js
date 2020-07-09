@@ -167,7 +167,7 @@ $(document).ready(function(){
     //Check for Version Change if Online If not Kill the Function
     if (navigator.onLine) {check_version();} else {function check_version(){}}
     
-    //Adding Offline Alerts
+/*     //Adding Offline Alerts
     var offlineAlerts = $('.offline-message');
 
     if(!offlineAlerts.length){
@@ -206,7 +206,7 @@ $(document).ready(function(){
     }
     window.addEventListener('online',  updateOnlineStatus);
     window.addEventListener('offline', updateOfflineStatus);
-    
+     
     //Disable links to other pages if offline.
     //Warning! Enabling offline for iOS can cause issues
     //To allow offline functionality delete the next 7 lines
@@ -217,6 +217,6 @@ $(document).ready(function(){
             return false;
         }  
     }   
-    
+ */   
  
 }); 

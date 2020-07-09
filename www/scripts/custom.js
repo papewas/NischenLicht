@@ -1279,7 +1279,7 @@ $(function() {
 		}        
         
         //Demo Functions
-        var simulateOffline = $('.simulate-offline');
+/*         var simulateOffline = $('.simulate-offline');
         var simulateOfflinePage = $('.simulate-offline-page');
         var simulateOnline = $('.simulate-online');
         var onlineMessage = $('.online-message');
@@ -1343,7 +1343,7 @@ $(function() {
             },2000)
         }
         window.addEventListener('online',  updateOnlineStatus);
-        window.addEventListener('offline', updateOfflineStatus);
+        window.addEventListener('offline', updateOfflineStatus); */
                 
         //Geolocation
         var geoLocation = $('.get-location');
@@ -1683,7 +1683,7 @@ $(function() {
 	setTimeout(init_template, 0);
      
     //Activate the PWA    
-    /* if(isPWA === true){
+    if(isPWA === true){
         if(!$('#manifest-pwa').length){
             $('head').append('<link rel="manifest" id="manifest-pwa" href="_manifest.json" data-pwa-version="set_by_pwa.js">')
         }
@@ -1696,7 +1696,7 @@ $(function() {
         };
         function loadPWA(){}
         loadJS('scripts/pwa.js', loadPWA, document.body);
-    }     */
+    }    
     
     //To Remove AJAX Remove This Code 
     $(function(){

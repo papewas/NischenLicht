@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Jul 07 14:36:38 CEST 2020
+#Wed Jul 08 22:17:21 CEST 2020
 20.base=C\:\\Users\\Robert\\Desktop\\NischenLicht\\platforms\\android\\app\\build\\intermediates\\assets\\release
 143.base=C\:\\Users\\Robert\\Desktop\\NischenLicht\\platforms\\android\\app\\build\\intermediates\\assets\\release
 493.base=C\:\\Users\\Robert\\Desktop\\NischenLicht\\platforms\\android\\app\\build\\intermediates\\assets\\release
