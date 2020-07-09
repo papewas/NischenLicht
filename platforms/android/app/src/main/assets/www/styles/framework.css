@@ -180,7 +180,7 @@ i{min-width:12px;}
 .responsive-image{display:block; width:100%;}
 .round-image{border-radius:100%;}
 /*Typography*/
-p{line-height: 26px; font-size:13px; color:#6c6c6c;}
+p{line-height: 26px; font-size:13px; color:#2f2f2f;}
 p strong{color:#1f1f1f;}
 h1, h2, h3, h4, h5 {
 	font-family:'Noto Sans JP', sans-serif;
@@ -3884,7 +3884,7 @@ span.input-style-1-active{padding-right:10px!important; right:auto!important;}
     color:#FFF;
 }
 
-.theme-dark p{color:#bababa;}
+.theme-dark p{color:#e1e1e1;}
 
 .theme-dark .menu .nav-title,
 .theme-dark .menu .nav a i,

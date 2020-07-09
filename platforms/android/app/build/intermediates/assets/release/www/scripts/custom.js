@@ -1279,7 +1279,7 @@ $(function() {
 		}        
         
         //Demo Functions
-        var simulateOffline = $('.simulate-offline');
+/*         var simulateOffline = $('.simulate-offline');
         var simulateOfflinePage = $('.simulate-offline-page');
         var simulateOnline = $('.simulate-online');
         var onlineMessage = $('.online-message');
@@ -1343,7 +1343,7 @@ $(function() {
             },2000)
         }
         window.addEventListener('online',  updateOnlineStatus);
-        window.addEventListener('offline', updateOfflineStatus);
+        window.addEventListener('offline', updateOfflineStatus); */
                 
         //Geolocation
         var geoLocation = $('.get-location');
