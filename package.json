@@ -1,7 +1,7 @@
 {
     "name": "app.nischenlicht.de",
     "displayName": "NischenLicht",
-    "version": "3.0.2",
+    "version": "3.0.3",
     "description": "Zitate und Texte aus den Bahá'í-Schriften",
     "main": "index.js",
     "scripts": {
